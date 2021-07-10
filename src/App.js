@@ -10,6 +10,8 @@ import SignIn from './components/SignIn/SignIn'
 import SignOut from './components/SignOut/SignOut'
 import ChangePassword from './components/ChangePassword/ChangePassword'
 
+import Dashboard from './components/Soleaf/Dashboard'
+
 class App extends Component {
   constructor (props) {
     super(props)
@@ -52,7 +54,7 @@ class App extends Component {
             deleteAlert={this.deleteAlert}
           />
         ))}
-        <main className="container">
+        <main> {/* className="container" */ }
           <Route path='/sign-up' render={() => (
             <SignUp msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />
@@ -64,6 +66,9 @@ class App extends Component {
           )} />
           <AuthenticatedRoute user={user} path='/change-password' render={() => (
             <ChangePassword msgAlert={this.msgAlert} user={user} />
+          )} />
+          <Route path='/' render={() => (
+            <Dashboard msgAlert={this.msgAlert} setUser={this.setUser} />
           )} />
         </main>
       </Fragment>
