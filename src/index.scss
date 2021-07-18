@@ -1,5 +1,61 @@
 @import '~bootstrap/scss/bootstrap';
 
-.h1-border {
+.content-width {
+  width: 65%;
+}
+
+.header-height {
+  height: 25%;
+}
+
+.content-height {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.right-col {
+  width: 25%;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.rss-width {
+  width: 10%;
+}
+
+.tab-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.blk-border {
   border: 5px solid #000;
+}
+
+.blue-border {
+  border: 5px solid #00f;
+}
+
+.tab {
+  border: 5px solid #0f0;
+  width: 33%;
+  height: 10rem;
+}
+
+.red-border {
+  border: 5px solid #f00;
 }
