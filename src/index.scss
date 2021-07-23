@@ -1,5 +1,22 @@
 @import '~bootstrap/scss/bootstrap';
 
+.cat-date {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  // border: 5px solid #0ff;
+}
+
+.title {
+  text-align: center;
+  // border: 5px solid #0ff;
+}
+
+.description {
+  text-align: center;
+  // border: 5px solid #0ff;
+}
+
 .content-width {
   width: 65%;
 }
@@ -50,6 +67,10 @@
   border: 5px solid #00f;
 }
 
+.purp-border {
+  border: 5px solid #f0f;
+}
+
 .tab {
   border: 5px solid #0f0;
   width: 33%;
@@ -58,4 +79,8 @@
 
 .red-border {
   border: 5px solid #f00;
+}
+
+.yellow-border {
+  border: 5px solid #cc0;
 }
