@@ -59,6 +59,15 @@
   flex-direction: column;
 }
 
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 69px;
+  font-family: sans-serif monospace;
+}
+
 .blk-border {
   border: 5px solid #000;
 }

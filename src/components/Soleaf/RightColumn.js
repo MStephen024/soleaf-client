@@ -3,7 +3,7 @@ import React from 'react'
 const RightColumn = (props) => {
   return (
     <div className="right-col blk-border">
-      Right Column(4)
+      Notes, Upcoming Appts., or saved stories?
     </div>
   )
 }
